@@ -1,0 +1,108 @@
+/*
+Descricao: Exercícios da Aula 12 - Introdução aos Formulários Web
+nome_arquivo: login.css
+nome_exercicio: Atividade 12 - Introdução aos Formulários Web
+nome_aluno: Pedro Henrique de Sousa Martins
+email_aluno: pedro.martins55@aluno.cps.sp.gov.br
+turma: A1129-N-D.S.M.-312-20262
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f5f2;
+    color: #333333;
+}
+
+header {
+    background-color: #2e7d32;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+.caixa {
+    width: 320px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    border: 2px solid #2e7d32;
+}
+
+.caixa h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #2e7d32;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #2e7d32;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #43a047;
+}
+
+.links {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.links a {
+    display: inline-block;
+    margin: 0 8px;
+    color: #2e7d32;
+}
+
+.mensagem {
+    margin: 10px 0 0 0;
+    font-weight: bold;
+}
+
+.erro {
+    color: #c62828;
+}
+
+.sucesso {
+    color: #2e7d32;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #666666;
+}
